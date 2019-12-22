@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html5</title>
+</head>
+<body>
+	<header><h3>This is a header</h3></header>
+	<nav>
+		<a name="top">
+		<p> Navi panel </p>
+		<p>
+			<a href="#video"> Video </a>
+			<a href="#audio"> Audio </a>
+			<a href="#article"> Article </a>
+			<a href="#section"> Section </a>
+			<a href="#figure"> Figure </a>
+			<a href="#range"> Range </a>
+			<a href="#form"> Form </a>
+		</p>
+	</nav>
+	
+	<video width="500" height="300" controls>
+		<a name="video">
+		<source src="video.mp4" type="video/mp4">
+	</video>
+	<p>Video Example</p>
+	<audio controls>
+		<a name="video">
+		<source src="audio.mp3" type="audio/mp3">
+	</audio>
+	<p>Audio Example</p><br>
+	<article>
+		<a name="article">
+		<h3>Article</h3>
+		<p>Не следует, однако забывать, что укрепление и развитие структуры представляет собой интересный эксперимент проверки модели развития. Задача организации, в особенности же новая модель организационной деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.</p>
+	</article>
+	
+	<section>
+		<a name="section"></a>
+		This is Section	with table
+		<table>
+			<thead>
+				<tr>
+					<th> Name 1 </th>
+					<th> Name 2 </th>
+					<th> Age </th>
+				</tr>
+			</thead>
+			<tr>
+				<th> Vasia </th>
+				<th> Petro </th>
+				<th> 20 </th>
+			</tr>
+		</table>
+	</section>
+	<figure>
+		<a name="figure">
+		<img id="ninja" src="ninja.png" alt="Ninja image" data-ImageDescription="Ninja with knife">
+		<figcaption>
+			<p>Web Cos Ninja</p>
+		</figcaption>
+	</figure>
+	<!-- <script type="text/javascript">
+		alert(document.getElementById("ninja").getAttribute("data-ImageDescription"));
+	</script>
+	 -->
+<a name="range">
+<input type="range" name="" min="100" max="300" step="20">
+<p contenteditable="true">Some paragraph</p>
+<ul contenteditable="">
+	<li>HTML</li>
+	<li>WEB</li>
+	<li>CSS</li>
+</ul>
+	
+
+<form id="myform">
+	<a name="form">
+	<p> Placeholder
+	<input type="text" placeholder="Input some text here" name="">
+	</p>
+	<p> Autofocus <input type="text" name="" autofocus></p>
+	<p> Required <input type="text" name="" required></p>
+	<p> Email<input type="email" required></p>
+	<p> Pattern<input type="text" required pattern="[0-9]"></p>
+	<p> Autocomplete <input type="text" list="colors"></p>
+	<datalist id="colors">
+		<option>Red</option>
+		<option>Orange</option>
+		<option>Yellow</option>
+		<option>Green</option>
+	</datalist>
+
+	<p> <input type="submit" value="submit" name="" required></p>
+</form>
+
+<p> Autocomplete <input form="myform" type="text" list="colors"></p>
+<datalist id="colors">
+<a href="#top"> Up </a>
+
+<footer>
+	<a name="footer">
+	<p> -- This is a footer -- </p>		
+</footer>
+
+</body>
+</html>
